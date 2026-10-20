@@ -1,0 +1,39 @@
+{
+  "type": "standard",
+  "title": "Willem Johan Kolff",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Willem Johan Kolff</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q700136",
+  "titles": {
+    "canonical": "Willem_Johan_Kolff",
+    "normalized": "Willem Johan Kolff",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Willem Johan Kolff</span></span>"
+  },
+  "pageid": 5389532,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1366036134",
+  "tid": "71631292-8877-11f1-8fa0-1f8d0a704701",
+  "timestamp": "2026-07-25T22:23:21Z",
+  "description": "Dutch medical researcher (1911–2009)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Willem_Johan_Kolff",
+      "revisions": "https://en.wikipedia.org/wiki/Willem_Johan_Kolff?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Willem_Johan_Kolff?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Willem_Johan_Kolff"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Willem_Johan_Kolff",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Willem_Johan_Kolff",
+      "edit": "https://en.wikipedia.org/wiki/Willem_Johan_Kolff?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Willem_Johan_Kolff"
+    }
+  },
+  "extract": "Willem Johan \"Pim\" Kolff was a pioneer of hemodialysis, artificial heart, as well as in the entire field of artificial organs. Willem was a member of the Kolff family, an old Dutch patrician family. He made his major discoveries in the field of dialysis for kidney failure during the Second World War. He emigrated in 1950 to the United States, where he obtained US citizenship in 1955, and received a number of awards and widespread recognition for his work.",
+  "extract_html": "<p><b>Willem Johan \"Pim\" Kolff</b> was a pioneer of hemodialysis, artificial heart, as well as in the entire field of artificial organs. Willem was a member of the Kolff family, an old Dutch patrician family. He made his major discoveries in the field of dialysis for kidney failure during the Second World War. He emigrated in 1950 to the United States, where he obtained US citizenship in 1955, and received a number of awards and widespread recognition for his work.</p>"
+}

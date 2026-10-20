@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Alexander Fleming",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Alexander Fleming</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q37064",
+  "titles": {
+    "canonical": "Alexander_Fleming",
+    "normalized": "Alexander Fleming",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Alexander Fleming</span></span>"
+  },
+  "pageid": 1937,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/330px-Synthetic_Production_of_Penicillin_TR1468.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 469
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3493,
+    "height": 4961
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1375868973",
+  "tid": "79ec6927-b50b-11f1-9c96-65ca48c652f1",
+  "timestamp": "2026-09-20T15:53:52Z",
+  "description": "Scottish physician and microbiologist (1881–1955)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "revisions": "https://en.wikipedia.org/wiki/Alexander_Fleming?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Alexander_Fleming?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alexander_Fleming"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Alexander_Fleming",
+      "edit": "https://en.wikipedia.org/wiki/Alexander_Fleming?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alexander_Fleming"
+    }
+  },
+  "extract": "Sir Alexander Fleming was a Scottish physician and microbiologist. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\".\nThis was the first antibiotic substance discovered. His discovery in 1928 of what was later named benzylpenicillin from the mould Penicillium rubens has been described as the \"single greatest victory ever achieved over disease\".",
+  "extract_html": "<p><b>Sir Alexander Fleming</b> was a Scottish physician and microbiologist. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\".\nThis was the first antibiotic substance discovered. His discovery in 1928 of what was later named benzylpenicillin from the mould <i>Penicillium rubens</i> has been described as the \"single greatest victory ever achieved over disease\".</p>"
+}

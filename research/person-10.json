@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Godfrey Hounsfield",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Godfrey Hounsfield</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q273769",
+  "titles": {
+    "canonical": "Godfrey_Hounsfield",
+    "normalized": "Godfrey Hounsfield",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Godfrey Hounsfield</span></span>"
+  },
+  "pageid": 885357,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Godfrey_Hounsfield.jpg/330px-Godfrey_Hounsfield.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 415
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Godfrey_Hounsfield.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2260,
+    "height": 2845
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1377824759",
+  "tid": "aa899928-bd7a-11f1-93f0-9d67b8bc1915",
+  "timestamp": "2026-10-01T09:29:57Z",
+  "description": "British electrical engineer (1919–2004)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield",
+      "revisions": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Godfrey_Hounsfield"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Godfrey_Hounsfield",
+      "edit": "https://en.wikipedia.org/wiki/Godfrey_Hounsfield?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Godfrey_Hounsfield"
+    }
+  },
+  "extract": "Sir Godfrey Newbold Hounsfield was an English electrical engineer who shared the 1979 Nobel Prize for Physiology or Medicine with Allan MacLeod Cormack for his part in developing the diagnostic technique of X-ray computed tomography (CT).",
+  "extract_html": "<p><b>Sir Godfrey Newbold Hounsfield</b> was an English electrical engineer who shared the 1979 Nobel Prize for Physiology or Medicine with Allan MacLeod Cormack for his part in developing the diagnostic technique of X-ray computed tomography (CT).</p>"
+}

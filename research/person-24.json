@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Paul Farmer",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Paul Farmer</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q2263705",
+  "titles": {
+    "canonical": "Paul_Farmer",
+    "normalized": "Paul Farmer",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Paul Farmer</span></span>"
+  },
+  "pageid": 1999202,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Paul_Farmer_2011.jpg/330px-Paul_Farmer_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 459
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Paul_Farmer_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 881,
+    "height": 1226
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1380972325",
+  "tid": "c19afb30-cb74-11f1-a40b-4f04c5124325",
+  "timestamp": "2026-10-19T04:22:55Z",
+  "description": "American medical anthropologist and physician (1959–2022)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Paul_Farmer",
+      "revisions": "https://en.wikipedia.org/wiki/Paul_Farmer?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Paul_Farmer?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Paul_Farmer"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Paul_Farmer",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Paul_Farmer",
+      "edit": "https://en.wikipedia.org/wiki/Paul_Farmer?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Paul_Farmer"
+    }
+  },
+  "extract": "Paul Edward Farmer was an American medical anthropologist and physician. Farmer held an MD and PhD from Harvard University, where he was a University Professor and the chair of the Department of Global Health and Social Medicine at Harvard Medical School. He was the co-founder and chief strategist of Partners In Health (PIH), an international non-profit organization that since 1987 has provided direct health care services and undertaken research and advocacy activities on behalf of those who are sick and living in poverty. He was professor of medicine and chief of the Division of Global Health Equity at Brigham and Women's Hospital.",
+  "extract_html": "<p><b>Paul Edward Farmer</b> was an American medical anthropologist and physician. Farmer held an MD and PhD from Harvard University, where he was a University Professor and the chair of the Department of Global Health and Social Medicine at Harvard Medical School. He was the co-founder and chief strategist of Partners In Health (PIH), an international non-profit organization that since 1987 has provided direct health care services and undertaken research and advocacy activities on behalf of those who are sick and living in poverty. He was professor of medicine and chief of the Division of Global Health Equity at Brigham and Women's Hospital.</p>"
+}

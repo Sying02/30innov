@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "James P. Allison",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">James P. Allison</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q6140731",
+  "titles": {
+    "canonical": "James_P._Allison",
+    "normalized": "James P. Allison",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">James P. Allison</span></span>"
+  },
+  "pageid": 36516619,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/James_P._Allison_EM1B5525_%2846207775441%29.jpg/330px-James_P._Allison_EM1B5525_%2846207775441%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 330
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/James_P._Allison_EM1B5525_%2846207775441%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3392,
+    "height": 3392
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1371976947",
+  "tid": "9a74471e-a3d1-11f1-b953-0d2441975596",
+  "timestamp": "2026-08-29T17:46:46Z",
+  "description": "American immunologist and Nobel laureate (born 1948)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/James_P._Allison",
+      "revisions": "https://en.wikipedia.org/wiki/James_P._Allison?action=history",
+      "edit": "https://en.wikipedia.org/wiki/James_P._Allison?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:James_P._Allison"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/James_P._Allison",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/James_P._Allison",
+      "edit": "https://en.wikipedia.org/wiki/James_P._Allison?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:James_P._Allison"
+    }
+  },
+  "extract": "James Patrick Allison is an American immunologist and Nobel laureate who holds the position of professor and chair of immunology and executive director of immunotherapy platform at the MD Anderson Cancer Center in Houston, Texas. Allison is Regental Professor and Founding-Director of James P. Allison Institute at the MD Anderson Cancer Center.",
+  "extract_html": "<p><b>James Patrick Allison</b> is an American immunologist and Nobel laureate who holds the position of professor and chair of immunology and executive director of immunotherapy platform at the MD Anderson Cancer Center in Houston, Texas. Allison is Regental Professor and Founding-Director of James P. Allison Institute at the MD Anderson Cancer Center.</p>"
+}

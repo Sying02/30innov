@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Joseph Lister",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Joseph Lister</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q155768",
+  "titles": {
+    "canonical": "Joseph_Lister",
+    "normalized": "Joseph Lister",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Joseph Lister</span></span>"
+  },
+  "pageid": 16535,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Joseph_Lister_1902.jpg/330px-Joseph_Lister_1902.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 445
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Joseph_Lister_1902.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 742,
+    "height": 1000
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1380998397",
+  "tid": "30904a37-cba5-11f1-8f70-42b60516af80",
+  "timestamp": "2026-10-19T10:09:37Z",
+  "description": "English scientist, surgeon and antiseptic pioneer (1827–1912)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Joseph_Lister",
+      "revisions": "https://en.wikipedia.org/wiki/Joseph_Lister?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Joseph_Lister?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Joseph_Lister"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Joseph_Lister",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Joseph_Lister",
+      "edit": "https://en.wikipedia.org/wiki/Joseph_Lister?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Joseph_Lister"
+    }
+  },
+  "extract": "Joseph Lister, 1st Baron Lister was an English surgeon, medical scientist, experimental pathologist and pioneer of antiseptic surgery and preventive healthcare. Lister revolutionised the craft of surgery by the use of close anatomical observation, in the same manner that John Hunter revolutionised the science of surgery.",
+  "extract_html": "<p><b>Joseph Lister, 1st Baron Lister</b> was an English surgeon, medical scientist, experimental pathologist and pioneer of antiseptic surgery and preventive healthcare. Lister revolutionised the craft of surgery by the use of close anatomical observation, in the same manner that John Hunter revolutionised the science of surgery.</p>"
+}

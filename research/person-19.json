@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Mary-Claire King",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mary-Claire King</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q437741",
+  "titles": {
+    "canonical": "Mary-Claire_King",
+    "normalized": "Mary-Claire King",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mary-Claire King</span></span>"
+  },
+  "pageid": 7684249,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mary-claire_king.jpg/330px-Mary-claire_king.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 494
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mary-claire_king.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 400,
+    "height": 599
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1378627361",
+  "tid": "69a3c686-c09b-11f1-876e-ce3aa55ede5e",
+  "timestamp": "2026-10-05T09:01:55Z",
+  "description": "American geneticist",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Mary-Claire_King",
+      "revisions": "https://en.wikipedia.org/wiki/Mary-Claire_King?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Mary-Claire_King?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Mary-Claire_King"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Mary-Claire_King",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Mary-Claire_King",
+      "edit": "https://en.wikipedia.org/wiki/Mary-Claire_King?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Mary-Claire_King"
+    }
+  },
+  "extract": "Mary-Claire King is an American geneticist. She was the first to show that breast cancer can be inherited due to mutations in the gene she called BRCA1. She studies human genetics and is particularly interested in genetic heterogeneity and complex traits. She studies the interaction of genetics and environmental influences and their effects on human conditions such as breast and ovarian cancer, inherited deafness, schizophrenia, HIV, systemic lupus erythematosus and rheumatoid arthritis. She has been the American Cancer Society Professor of the Department of Genome Sciences and of Medical Genetics at the University of Washington School of Medicine since 1995.",
+  "extract_html": "<p><b>Mary-Claire King</b> is an American geneticist. She was the first to show that breast cancer can be inherited due to mutations in the gene she called <i>BRCA1</i>. She studies human genetics and is particularly interested in genetic heterogeneity and complex traits. She studies the interaction of genetics and environmental influences and their effects on human conditions such as breast and ovarian cancer, inherited deafness, schizophrenia, HIV, systemic lupus erythematosus and rheumatoid arthritis. She has been the American Cancer Society Professor of the Department of Genome Sciences and of Medical Genetics at the University of Washington School of Medicine since 1995.</p>"
+}

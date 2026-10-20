@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Ignaz Semmelweis",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ignaz Semmelweis</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q59736",
+  "titles": {
+    "canonical": "Ignaz_Semmelweis",
+    "normalized": "Ignaz Semmelweis",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ignaz Semmelweis</span></span>"
+  },
+  "pageid": 75319,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg/330px-Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 343
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1658,
+    "height": 1722
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1374734853",
+  "tid": "807f5aca-afb4-11f1-b97a-890a01e35ac4",
+  "timestamp": "2026-09-13T20:48:41Z",
+  "description": "Early pioneer of antiseptic procedures",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "revisions": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Ignaz_Semmelweis"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Ignaz_Semmelweis",
+      "edit": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Ignaz_Semmelweis"
+    }
+  },
+  "extract": "Ignaz Philipp Semmelweis was a Hungarian medical doctor and scientist of German descent who was an early pioneer of antiseptic procedures, known as the \"saviour of mothers\". Postpartum infection, also known as puerperal fever or childbed fever, was common in the 19th century, and often fatal. Semmelweis demonstrated that the incidence of infection could be drastically reduced by requiring healthcare workers in obstetrical clinics to disinfect their hands. In 1847, he proposed hand washing with chlorinated lime solutions at Vienna General Hospital's First Obstetrical Clinic, where doctors' wards had thrice the mortality of midwives' wards. The maternal mortality rate dropped from 18% to less than 2%, and he published a book of his findings, Etiology, Concept and Prophylaxis of Childbed Fever, in 1861.",
+  "extract_html": "<p><b>Ignaz Philipp Semmelweis</b> was a Hungarian medical doctor and scientist of German descent who was an early pioneer of antiseptic procedures, known as the \"saviour of mothers\". Postpartum infection, also known as puerperal fever or childbed fever, was common in the 19th century, and often fatal. Semmelweis demonstrated that the incidence of infection could be drastically reduced by requiring healthcare workers in obstetrical clinics to disinfect their hands. In 1847, he proposed hand washing with chlorinated lime solutions at Vienna General Hospital's First Obstetrical Clinic, where doctors' wards had thrice the mortality of midwives' wards. The maternal mortality rate dropped from 18% to less than 2%, and he published a book of his findings, <i>Etiology, Concept and Prophylaxis of Childbed Fever</i>, in 1861.</p>"
+}

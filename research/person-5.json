@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Devi Shetty",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Devi Shetty</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q5266968",
+  "titles": {
+    "canonical": "Devi_Shetty",
+    "normalized": "Devi Shetty",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Devi Shetty</span></span>"
+  },
+  "pageid": 5219987,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Devi_Shetty.jpg/330px-Devi_Shetty.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 428
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/22/Devi_Shetty.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1307,
+    "height": 1695
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1376031660",
+  "tid": "cd78b83f-b5d8-11f1-9f50-0dd2fcdff43c",
+  "timestamp": "2026-09-21T16:23:39Z",
+  "description": "Indian Cardiac surgeon",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Devi_Shetty",
+      "revisions": "https://en.wikipedia.org/wiki/Devi_Shetty?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Devi_Shetty?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Devi_Shetty"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Devi_Shetty",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Devi_Shetty",
+      "edit": "https://en.wikipedia.org/wiki/Devi_Shetty?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Devi_Shetty"
+    }
+  },
+  "extract": "Devi Prasad Shetty is an Indian cardiac surgeon who is the chairman and founder of Narayana Health, a chain of 24 medical centers in India. He has performed more than 15,000 heart operations. In 2004 he was awarded the Padma Shri, the fourth highest civilian award, followed by the Padma Bhushan in 2012, the third highest civilian award by the Government of India for his contribution to the field of affordable healthcare.",
+  "extract_html": "<p><b>Devi Prasad Shetty</b> is an Indian cardiac surgeon who is the chairman and founder of Narayana Health, a chain of 24 medical centers in India. He has performed more than 15,000 heart operations. In 2004 he was awarded the Padma Shri, the fourth highest civilian award, followed by the Padma Bhushan in 2012, the third highest civilian award by the Government of India for his contribution to the field of affordable healthcare.</p>"
+}

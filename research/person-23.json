@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Wu Lien-teh",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wu Lien-teh</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q1036871",
+  "titles": {
+    "canonical": "Wu_Lien-teh",
+    "normalized": "Wu Lien-teh",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wu Lien-teh</span></span>"
+  },
+  "pageid": 13137253,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Wu_Lien-teh_-_c._1910%E2%80%931915.jpg/330px-Wu_Lien-teh_-_c._1910%E2%80%931915.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 480
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/52/Wu_Lien-teh_-_c._1910%E2%80%931915.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3548,
+    "height": 5165
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1378630390",
+  "tid": "c5248018-c0a0-11f1-b580-4992190161ef",
+  "timestamp": "2026-10-05T09:40:16Z",
+  "description": "Malayan physician (1879–1960)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Wu_Lien-teh",
+      "revisions": "https://en.wikipedia.org/wiki/Wu_Lien-teh?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Wu_Lien-teh?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Wu_Lien-teh"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Wu_Lien-teh",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Wu_Lien-teh",
+      "edit": "https://en.wikipedia.org/wiki/Wu_Lien-teh?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Wu_Lien-teh"
+    }
+  },
+  "extract": "Wu Lien-teh (Chinese: 伍連德; pinyin: Wǔ Liándé; Jyutping: Ng5 Lin4 Dak1; Pe̍h-ōe-jī: Gó͘ Liân-tek; Goh Lean Tuck and Ng Leen Tuck in Hokkien and Cantonese transliteration respectively; 10 March 1879 – 21 January 1960) was a Malayan physician renowned for his work in public health, particularly the Manchurian plague of 1910–11. He is the inventor of the Wu mask, which is the forerunner of today's N95 respirator.",
+  "extract_html": "<p><b>Wu Lien-teh</b> (Chinese: 伍連德; pinyin: <i>Wǔ Liándé</i>; Jyutping: <i><span>Ng<sup>5</sup> Lin<sup>4</sup> Dak<sup>1</sup></span></i>; Pe̍h-ōe-jī: <i>Gó͘ Liân-tek</i>; <b>Goh Lean Tuck</b> and <b>Ng Leen Tuck</b> in Hokkien and Cantonese transliteration respectively; 10 March 1879 – 21 January 1960) was a Malayan physician renowned for his work in public health, particularly the Manchurian plague of 1910–11. He is the inventor of the Wu mask, which is the forerunner of today's N95 respirator.</p>"
+}

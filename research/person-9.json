@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Wilhelm Röntgen",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wilhelm Röntgen</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q35149",
+  "titles": {
+    "canonical": "Wilhelm_Röntgen",
+    "normalized": "Wilhelm Röntgen",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wilhelm Röntgen</span></span>"
+  },
+  "pageid": 61325,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg/330px-Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 425
+  },
+  "originalimage": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg/3840px-Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 4222,
+    "height": 5435
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1377913108",
+  "tid": "207a186e-bdec-11f1-8593-d5af73e85182",
+  "timestamp": "2026-10-01T23:02:08Z",
+  "description": "German physicist (1845–1923)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+      "revisions": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Wilhelm_R%C3%B6ntgen"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Wilhelm_R%C3%B6ntgen",
+      "edit": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Wilhelm_R%C3%B6ntgen"
+    }
+  },
+  "extract": "Wilhelm Conrad Röntgen was a German experimental physicist who produced and detected electromagnetic radiation in a wavelength range known as X-rays. In 1901, Röntgen became the first recipient of the Nobel Prize in Physics \"in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him.\" The element roentgenium is named in his honor.",
+  "extract_html": "<p><b>Wilhelm Conrad Röntgen</b> was a German experimental physicist who produced and detected electromagnetic radiation in a wavelength range known as X-rays. In 1901, Röntgen became the first recipient of the Nobel Prize in Physics \"in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him.\" The element roentgenium is named in his honor.</p>"
+}

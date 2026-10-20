@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Katalin Karikó",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katalin Karikó</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q88608397",
+  "titles": {
+    "canonical": "Katalin_Karikó",
+    "normalized": "Katalin Karikó",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katalin Karikó</span></span>"
+  },
+  "pageid": 63780788,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Katalin_Karik%C3%B3_by_Christopher_Michel_in_2024_02.jpg/330px-Katalin_Karik%C3%B3_by_Christopher_Michel_in_2024_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 495
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Katalin_Karik%C3%B3_by_Christopher_Michel_in_2024_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3340,
+    "height": 5010
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1380250296",
+  "tid": "0a5e5782-c7f7-11f1-bbcd-0750baba1a5e",
+  "timestamp": "2026-10-14T17:45:27Z",
+  "description": "Hungarian-American biochemist (born 1955)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+      "revisions": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Katalin_Karik%C3%B3"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Katalin_Karik%C3%B3",
+      "edit": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Katalin_Karik%C3%B3"
+    }
+  },
+  "extract": "Katalin \"Kati\" Karikó is a Hungarian and American biochemist who specializes in ribonucleic acid (RNA)-mediated mechanisms, particularly in vitro-transcribed messenger RNA (mRNA) for protein replacement therapy. Karikó laid the scientific groundwork for mRNA vaccines, overcoming major obstacles and skepticism in the scientific community. Karikó received the Nobel Prize in Physiology or Medicine in 2023 for her work, along with American immunologist Drew Weissman.",
+  "extract_html": "<p><b>Katalin</b> \"<b>Kati</b>\" <b>Karikó</b> is a Hungarian and American biochemist who specializes in ribonucleic acid (RNA)-mediated mechanisms, particularly in vitro-transcribed messenger RNA (mRNA) for protein replacement therapy. Karikó laid the scientific groundwork for mRNA vaccines, overcoming major obstacles and skepticism in the scientific community. Karikó received the Nobel Prize in Physiology or Medicine in 2023 for her work, along with American immunologist Drew Weissman.</p>"
+}

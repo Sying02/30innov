@@ -1,0 +1,39 @@
+{
+  "type": "disambiguation",
+  "title": "Graeme Clark",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Graeme Clark</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q5592231",
+  "titles": {
+    "canonical": "Graeme_Clark",
+    "normalized": "Graeme Clark",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Graeme Clark</span></span>"
+  },
+  "pageid": 26561135,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1183630807",
+  "tid": "1a601067-7bee-11ee-a80c-0346aac7e740",
+  "timestamp": "2023-11-05T15:15:07Z",
+  "description": "Topics referred to by the same term",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Graeme_Clark",
+      "revisions": "https://en.wikipedia.org/wiki/Graeme_Clark?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Graeme_Clark?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Graeme_Clark"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Graeme_Clark",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Graeme_Clark",
+      "edit": "https://en.wikipedia.org/wiki/Graeme_Clark?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Graeme_Clark"
+    }
+  },
+  "extract": "Graeme Clark may refer to:Graeme C. Clark, Canadian ambassador\nGraeme Clark (doctor), pioneer of cochlear implants\nGraeme Clark (musician), Scottish musician\nGraeme Clarke, Canadian ice hockey player",
+  "extract_html": "<p><b>Graeme Clark</b> may refer to:</p><ul><li>Graeme C. Clark, Canadian ambassador</li>\n<li>Graeme Clark (doctor), pioneer of cochlear implants</li>\n<li>Graeme Clark (musician), Scottish musician</li>\n<li>Graeme Clarke, Canadian ice hockey player</li></ul>"
+}

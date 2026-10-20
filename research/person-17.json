@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Shinya Yamanaka",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shinya Yamanaka</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q80917",
+  "titles": {
+    "canonical": "Shinya_Yamanaka",
+    "normalized": "Shinya Yamanaka",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shinya Yamanaka</span></span>"
+  },
+  "pageid": 14373561,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Shinya_Yamanaka_20141226.jpg/330px-Shinya_Yamanaka_20141226.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 495
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Shinya_Yamanaka_20141226.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2176,
+    "height": 3265
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1377161785",
+  "tid": "333fd5f1-baee-11f1-9cf2-45bfbfb5ceb9",
+  "timestamp": "2026-09-28T03:39:25Z",
+  "description": "Japanese stem cell researcher (born 1962)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Shinya_Yamanaka",
+      "revisions": "https://en.wikipedia.org/wiki/Shinya_Yamanaka?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Shinya_Yamanaka?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Shinya_Yamanaka"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Shinya_Yamanaka",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Shinya_Yamanaka",
+      "edit": "https://en.wikipedia.org/wiki/Shinya_Yamanaka?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Shinya_Yamanaka"
+    }
+  },
+  "extract": "Shinya Yamanaka  is a Japanese stem cell researcher and a Nobel Prize laureate.",
+  "extract_html": "<p><b>Shinya Yamanaka</b><span style=\"font-weight:normal\"> </span> is a Japanese stem cell researcher and a Nobel Prize laureate.</p>"
+}

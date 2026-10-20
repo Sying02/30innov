@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Virginia Apgar",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Virginia Apgar</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q463891",
+  "titles": {
+    "canonical": "Virginia_Apgar",
+    "normalized": "Virginia Apgar",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Virginia Apgar</span></span>"
+  },
+  "pageid": 250256,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Virginia-Apgar-July-6-1959.jpg/330px-Virginia-Apgar-July-6-1959.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 442
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Virginia-Apgar-July-6-1959.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 448,
+    "height": 600
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1380898079",
+  "tid": "dc3c86f2-cb12-11f1-b72b-11d2ee6adf29",
+  "timestamp": "2026-10-18T16:42:09Z",
+  "description": "American physician and obstetrical anesthesiologist (1909–1974)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Virginia_Apgar",
+      "revisions": "https://en.wikipedia.org/wiki/Virginia_Apgar?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Virginia_Apgar?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Virginia_Apgar"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Virginia_Apgar",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Virginia_Apgar",
+      "edit": "https://en.wikipedia.org/wiki/Virginia_Apgar?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Virginia_Apgar"
+    }
+  },
+  "extract": "Virginia Apgar was an American physician, obstetrical anesthesiologist and medical researcher, best known as the inventor of the Apgar score, a way to quickly assess the health of a newborn child immediately after birth in order to combat infant mortality. In 1952, she developed the 10-point Apgar score to assist physicians and nurses in assessing the status of newborns. Given at one minute and five minutes after birth, the Apgar test measures a child's breathing, skin color, reflexes, motion, and heart rate. A friend said, \"She probably did more than any other physician to bring the problem of birth defects out of back rooms.\" She was a leader in the fields of anesthesiology and teratology, and introduced obstetrical considerations to the established field of neonatology.",
+  "extract_html": "<p><b>Virginia Apgar</b> was an American physician, obstetrical anesthesiologist and medical researcher, best known as the inventor of the Apgar score, a way to quickly assess the health of a newborn child immediately after birth in order to combat infant mortality. In 1952, she developed the 10-point Apgar score to assist physicians and nurses in assessing the status of newborns. Given at one minute and five minutes after birth, the Apgar test measures a child's breathing, skin color, reflexes, motion, and heart rate. A friend said, \"She probably did more than any other physician to bring the problem of birth defects out of back rooms.\" She was a leader in the fields of anesthesiology and teratology, and introduced obstetrical considerations to the established field of neonatology.</p>"
+}

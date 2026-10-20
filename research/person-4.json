@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Drew Weissman",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Drew Weissman</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q88608402",
+  "titles": {
+    "canonical": "Drew_Weissman",
+    "normalized": "Drew Weissman",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Drew Weissman</span></span>"
+  },
+  "pageid": 66320318,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Drew_Weissman%2C_2023_Nobel_Laureate_in_Medicine_%28cropped%29.jpg/330px-Drew_Weissman%2C_2023_Nobel_Laureate_in_Medicine_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 514
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Drew_Weissman%2C_2023_Nobel_Laureate_in_Medicine_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2106,
+    "height": 3281
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1379891579",
+  "tid": "efe47b28-c644-11f1-88b2-0b3d79ec4703",
+  "timestamp": "2026-10-12T13:58:01Z",
+  "description": "American physician and immunologist (born 1959)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Drew_Weissman",
+      "revisions": "https://en.wikipedia.org/wiki/Drew_Weissman?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Drew_Weissman?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Drew_Weissman"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Drew_Weissman",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Drew_Weissman",
+      "edit": "https://en.wikipedia.org/wiki/Drew_Weissman?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Drew_Weissman"
+    }
+  },
+  "extract": "Drew Weissman is a Nobel Prize winning American physician and immunologist known for his contributions to RNA biology.\nWeissman is the inaugural Roberts Family Professor in Vaccine Research, director of the Penn Institute for RNA Innovation, and professor of medicine at the Perelman School of Medicine at the University of Pennsylvania (Penn).",
+  "extract_html": "<p><b>Drew Weissman</b> is a Nobel Prize winning American physician and immunologist known for his contributions to RNA biology.\nWeissman is the inaugural Roberts Family Professor in Vaccine Research, director of the Penn Institute for RNA Innovation, and professor of medicine at the Perelman School of Medicine at the University of Pennsylvania (Penn).</p>"
+}

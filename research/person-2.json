@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Govindappa Venkataswamy",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Govindappa Venkataswamy</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q3112824",
+  "titles": {
+    "canonical": "Govindappa_Venkataswamy",
+    "normalized": "Govindappa Venkataswamy",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Govindappa Venkataswamy</span></span>"
+  },
+  "pageid": 7904883,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Chief_in_desk.jpg/330px-Chief_in_desk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 394
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chief_in_desk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1398,
+    "height": 1668
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1376689418",
+  "tid": "34181103-b90a-11f1-8f25-7194ec30584c",
+  "timestamp": "2026-09-25T17:54:50Z",
+  "description": "Indian ophthalmologist",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Govindappa_Venkataswamy",
+      "revisions": "https://en.wikipedia.org/wiki/Govindappa_Venkataswamy?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Govindappa_Venkataswamy?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Govindappa_Venkataswamy"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Govindappa_Venkataswamy",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Govindappa_Venkataswamy",
+      "edit": "https://en.wikipedia.org/wiki/Govindappa_Venkataswamy?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Govindappa_Venkataswamy"
+    }
+  },
+  "extract": "Govindappa Venkataswamy, popularly known as Dr V., was an Indian ophthalmologist who dedicated his life to eliminating needless blindness. He was the founder and former chairman of Aravind Eye Hospitals. He is best known for developing a high quality, high volume, low-cost service delivery model that has restored sight to millions of people. Since inception, Aravind Eye Care System has seen over 55 million patients, and performed over 6.8 million surgeries. Over 50% of the organisation's patients pay either nothing or highly subsidised rates. Its scale and self-sustainability prompted a 1993 Harvard Business Case Study on the Aravind model.",
+  "extract_html": "<p><b>Govindappa Venkataswamy</b>, popularly known as <b>Dr V.</b>, was an Indian ophthalmologist who dedicated his life to eliminating needless blindness. He was the founder and former chairman of Aravind Eye Hospitals. He is best known for developing a high quality, high volume, low-cost service delivery model that has restored sight to millions of people. Since inception, Aravind Eye Care System has seen over 55 million patients, and performed over 6.8 million surgeries. Over 50% of the organisation's patients pay either nothing or highly subsidised rates. Its scale and self-sustainability prompted a 1993 Harvard Business Case Study on the Aravind model.</p>"
+}

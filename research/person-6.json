@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Edward Jenner",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Edward Jenner</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q40852",
+  "titles": {
+    "canonical": "Edward_Jenner",
+    "normalized": "Edward Jenner",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Edward Jenner</span></span>"
+  },
+  "pageid": 9506,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Edward_Jenner.jpg/330px-Edward_Jenner.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 417
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/be/Edward_Jenner.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2739,
+    "height": 3465
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1380574616",
+  "tid": "2a6a52c6-c97a-11f1-9df3-2b2111068133",
+  "timestamp": "2026-10-16T15:56:36Z",
+  "description": "English physician (1749–1823)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Edward_Jenner",
+      "revisions": "https://en.wikipedia.org/wiki/Edward_Jenner?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Edward_Jenner?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Edward_Jenner"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Edward_Jenner",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Edward_Jenner",
+      "edit": "https://en.wikipedia.org/wiki/Edward_Jenner?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Edward_Jenner"
+    }
+  },
+  "extract": "Edward Jenner was an English physician and scientist who pioneered the concept of vaccines and created the smallpox vaccine, the world's first vaccine. The terms vaccine and vaccination are derived from Variolae vaccinae, the term devised by Jenner to denote cowpox. He used it in 1798 in the title of his Inquiry into the Variolae vaccinae known as the Cow Pox, in which Jenner described the protective effect of cowpox against smallpox.",
+  "extract_html": "<p><b>Edward Jenner</b> was an English physician and scientist who pioneered the concept of vaccines and created the smallpox vaccine, the world's first vaccine. The terms <i>vaccine</i> and <i>vaccination</i> are derived from <i>Variolae vaccinae</i>, the term devised by Jenner to denote cowpox. He used it in 1798 in the title of his <i>Inquiry into the Variolae vaccinae known as the Cow Pox</i>, in which Jenner described the protective effect of cowpox against smallpox.</p>"
+}

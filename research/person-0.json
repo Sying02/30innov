@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Tu Youyou",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tu Youyou</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q462843",
+  "titles": {
+    "canonical": "Tu_Youyou",
+    "normalized": "Tu Youyou",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tu Youyou</span></span>"
+  },
+  "pageid": 33065882,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Tu_Youyou_5056-2015.jpg/330px-Tu_Youyou_5056-2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 400
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Tu_Youyou_5056-2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2805,
+    "height": 3403
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1379110186",
+  "tid": "a0a1f2cc-c2b6-11f1-b89a-6b152a2485f6",
+  "timestamp": "2026-10-08T01:21:46Z",
+  "description": "Chinese pharmaceutical chemist (born 1930)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Tu_Youyou",
+      "revisions": "https://en.wikipedia.org/wiki/Tu_Youyou?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Tu_Youyou?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Tu_Youyou"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Tu_Youyou",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Tu_Youyou",
+      "edit": "https://en.wikipedia.org/wiki/Tu_Youyou?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Tu_Youyou"
+    }
+  },
+  "extract": "Tu Youyou is a Nobel Prize-winning Chinese pharmaceutical chemist. She discovered artemisinin and dihydroartemisinin, used to treat malaria; these discoveries were a breakthrough in twentieth-century tropical medicine, saving millions of lives in South China, Southeast Asia, Africa, and South America. Tu was born, educated and carried out her research exclusively in China.",
+  "extract_html": "<p><b>Tu Youyou</b> is a Nobel Prize-winning Chinese pharmaceutical chemist. She discovered artemisinin and dihydroartemisinin, used to treat malaria; these discoveries were a breakthrough in twentieth-century tropical medicine, saving millions of lives in South China, Southeast Asia, Africa, and South America. Tu was born, educated and carried out her research exclusively in China.</p>"
+}

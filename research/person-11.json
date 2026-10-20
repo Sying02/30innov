@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Paul Lauterbur",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Paul Lauterbur</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q106547",
+  "titles": {
+    "canonical": "Paul_Lauterbur",
+    "normalized": "Paul Lauterbur",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Paul Lauterbur</span></span>"
+  },
+  "pageid": 336050,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paul_Lauterbur_2003_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 97,
+    "height": 123
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paul_Lauterbur_2003_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 97,
+    "height": 123
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1371982504",
+  "tid": "c8f42140-a3d5-11f1-87c8-957169cbbf6d",
+  "timestamp": "2026-08-29T18:16:42Z",
+  "description": "American chemist (1929–2007)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Paul_Lauterbur",
+      "revisions": "https://en.wikipedia.org/wiki/Paul_Lauterbur?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Paul_Lauterbur?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Paul_Lauterbur"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Paul_Lauterbur",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Paul_Lauterbur",
+      "edit": "https://en.wikipedia.org/wiki/Paul_Lauterbur?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Paul_Lauterbur"
+    }
+  },
+  "extract": "Paul Christian Lauterbur was an American chemist who shared the Nobel Prize in Physiology or Medicine in 2003 with Peter Mansfield for his work which made the development of magnetic resonance imaging (MRI) possible.",
+  "extract_html": "<p><b>Paul Christian Lauterbur</b> was an American chemist who shared the Nobel Prize in Physiology or Medicine in 2003 with Peter Mansfield for his work which made the development of magnetic resonance imaging (MRI) possible.</p>"
+}

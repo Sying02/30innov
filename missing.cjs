@@ -1,0 +1,1 @@
+const fs=require('fs');const vm=require('vm');const ctx=vm.createContext({});vm.runInContext(fs.readFileSync('dist/data.js','utf8')+fs.readFileSync('dist/enrichment.js','utf8')+';globalThis.data=people;',ctx);console.log(ctx.data.filter(p=>!p.photoAvailable).map(p=>p.id+' '+p.en).join('\n'));

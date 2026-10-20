@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Florence Nightingale",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Florence Nightingale</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q37103",
+  "titles": {
+    "canonical": "Florence_Nightingale",
+    "normalized": "Florence Nightingale",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Florence Nightingale</span></span>"
+  },
+  "pageid": 100127,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/330px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 459
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1105,
+    "height": 1536
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1375983362",
+  "tid": "cf695c46-b58d-11f1-bc9a-107389a2a5c4",
+  "timestamp": "2026-09-21T07:26:50Z",
+  "description": "English founder of modern nursing (1820–1910)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+      "revisions": "https://en.wikipedia.org/wiki/Florence_Nightingale?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Florence_Nightingale?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Florence_Nightingale"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Florence_Nightingale",
+      "edit": "https://en.wikipedia.org/wiki/Florence_Nightingale?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Florence_Nightingale"
+    }
+  },
+  "extract": "Florence Nightingale was an English social reformer, statistician and the founder of modern nursing. Nightingale came to prominence while serving as a manager and trainer of nurses during the Crimean War, in which she organised care for wounded soldiers at Constantinople. She significantly reduced death rates by improving hygiene and living standards. Nightingale gave nursing a favourable reputation and became an icon of Victorian culture, especially in the persona of \"The Lady with the Lamp\" making ward rounds for wounded soldiers at night.",
+  "extract_html": "<p><b>Florence Nightingale</b> was an English social reformer, statistician and the founder of modern nursing. Nightingale came to prominence while serving as a manager and trainer of nurses during the Crimean War, in which she organised care for wounded soldiers at Constantinople. She significantly reduced death rates by improving hygiene and living standards. Nightingale gave nursing a favourable reputation and became an icon of Victorian culture, especially in the persona of \"<b>The Lady with the Lamp</b>\" making ward rounds for wounded soldiers at night.</p>"
+}

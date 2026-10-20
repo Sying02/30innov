@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Jennifer Doudna",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jennifer Doudna</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q56068",
+  "titles": {
+    "canonical": "Jennifer_Doudna",
+    "normalized": "Jennifer Doudna",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jennifer Doudna</span></span>"
+  },
+  "pageid": 36836014,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg/330px-Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 476
+  },
+  "originalimage": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg/3840px-Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 5233,
+    "height": 7547
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1379081993",
+  "tid": "3bd4a03e-c292-11f1-8e67-83daeaaeb1fd",
+  "timestamp": "2026-10-07T21:01:15Z",
+  "description": "American biochemist and Nobel laureate (born 1964)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Jennifer_Doudna",
+      "revisions": "https://en.wikipedia.org/wiki/Jennifer_Doudna?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Jennifer_Doudna?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Jennifer_Doudna"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Jennifer_Doudna",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Jennifer_Doudna",
+      "edit": "https://en.wikipedia.org/wiki/Jennifer_Doudna?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Jennifer_Doudna"
+    }
+  },
+  "extract": "Jennifer Anne Doudna is an American biochemist who has pioneered work in CRISPR gene editing, and made other fundamental contributions in biochemistry and genetics. She received the 2020 Nobel Prize in Chemistry, with Emmanuelle Charpentier, \"for the development of a method for genome editing.\" She is the Li Ka Shing Chancellor's Chair Professor at the University of California, Berkeley. She has been an investigator with the Howard Hughes Medical Institute since 1997.",
+  "extract_html": "<p><b>Jennifer Anne Doudna</b> is an American biochemist who has pioneered work in CRISPR gene editing, and made other fundamental contributions in biochemistry and genetics. She received the 2020 Nobel Prize in Chemistry, with Emmanuelle Charpentier, \"for the development of a method for genome editing.\" She is the Li Ka Shing Chancellor's Chair Professor at the University of California, Berkeley. She has been an investigator with the Howard Hughes Medical Institute since 1997.</p>"
+}

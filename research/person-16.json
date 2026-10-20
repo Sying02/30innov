@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Emmanuelle Charpentier",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Emmanuelle Charpentier</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q17280087",
+  "titles": {
+    "canonical": "Emmanuelle_Charpentier",
+    "normalized": "Emmanuelle Charpentier",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Emmanuelle Charpentier</span></span>"
+  },
+  "pageid": 47056521,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Emmanuelle_Charpentier.jpg/330px-Emmanuelle_Charpentier.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 313
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/66/Emmanuelle_Charpentier.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1250,
+    "height": 1184
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1379679153",
+  "tid": "8c7524e5-c548-11f1-ac03-89e18dfe38b4",
+  "timestamp": "2026-10-11T07:51:21Z",
+  "description": "French microbiologist, biochemist and Nobel laureate (born 1968)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier",
+      "revisions": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Emmanuelle_Charpentier"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Emmanuelle_Charpentier",
+      "edit": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Emmanuelle_Charpentier"
+    }
+  },
+  "extract": "Emmanuelle Marie Charpentier is a French academic, microbiologist, geneticist, and biochemist. She has served as a director at the Max Planck Institute for Infection Biology in Berlin since 2015. Three years later, she founded an independent research institute, the Max Planck Unit for the Science of Pathogens. In 2020, Charpentier and American biochemist Jennifer Doudna of the University of California, Berkeley, were awarded the Nobel Prize in Chemistry \"for the development of a method for genome editing\". This was the first science Nobel Prize ever won exclusively by two women.",
+  "extract_html": "<p><b>Emmanuelle Marie Charpentier</b> is a French academic, microbiologist, geneticist, and biochemist. She has served as a director at the Max Planck Institute for Infection Biology in Berlin since 2015. Three years later, she founded an independent research institute, the Max Planck Unit for the Science of Pathogens. In 2020, Charpentier and American biochemist Jennifer Doudna of the University of California, Berkeley, were awarded the Nobel Prize in Chemistry \"for the development of a method for genome editing\". This was the first science Nobel Prize ever won exclusively by two women.</p>"
+}

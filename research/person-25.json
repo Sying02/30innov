@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Atul Gawande",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Atul Gawande</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q2751383",
+  "titles": {
+    "canonical": "Atul_Gawande",
+    "normalized": "Atul Gawande",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Atul Gawande</span></span>"
+  },
+  "pageid": 2360645,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Atul_Gawande%2C_USAID_Assistant_Administrator.jpg/330px-Atul_Gawande%2C_USAID_Assistant_Administrator.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 440
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Atul_Gawande%2C_USAID_Assistant_Administrator.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2100,
+    "height": 2800
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1376504195",
+  "tid": "0c05b106-b82b-11f1-b128-f6b0e0936603",
+  "timestamp": "2026-09-24T15:17:25Z",
+  "description": "American surgeon (born 1965)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Atul_Gawande",
+      "revisions": "https://en.wikipedia.org/wiki/Atul_Gawande?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Atul_Gawande?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Atul_Gawande"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Atul_Gawande",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Atul_Gawande",
+      "edit": "https://en.wikipedia.org/wiki/Atul_Gawande?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Atul_Gawande"
+    }
+  },
+  "extract": "Atul Atmaram Gawande is an American surgeon, writer, and public health researcher. He practices general and endocrine surgery at Brigham and Women's Hospital in Boston, Massachusetts. He is a professor in the Department of Health Policy and Management at the Harvard T.H. Chan School of Public Health and the Samuel O. Thier Professor of Surgery at Harvard Medical School.",
+  "extract_html": "<p><b>Atul Atmaram Gawande</b> is an American surgeon, writer, and public health researcher. He practices general and endocrine surgery at Brigham and Women's Hospital in Boston, Massachusetts. He is a professor in the Department of Health Policy and Management at the Harvard T.H. Chan School of Public Health and the Samuel O. Thier Professor of Surgery at Harvard Medical School.</p>"
+}

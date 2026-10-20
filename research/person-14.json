@@ -1,0 +1,39 @@
+{
+  "type": "standard",
+  "title": "Catherine Mohr",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Catherine Mohr</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q23782401",
+  "titles": {
+    "canonical": "Catherine_Mohr",
+    "normalized": "Catherine Mohr",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Catherine Mohr</span></span>"
+  },
+  "pageid": 69045448,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1370149996",
+  "tid": "d7fdf914-9bbf-11f1-a3f8-f6a176f71918",
+  "timestamp": "2026-08-19T11:19:29Z",
+  "description": "Mechanical Engineer and Medical Doctor",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Catherine_Mohr",
+      "revisions": "https://en.wikipedia.org/wiki/Catherine_Mohr?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Catherine_Mohr?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Catherine_Mohr"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Catherine_Mohr",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Catherine_Mohr",
+      "edit": "https://en.wikipedia.org/wiki/Catherine_Mohr?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Catherine_Mohr"
+    }
+  },
+  "extract": "Catherine Jane Mohr is a medical researcher from New Zealand, residing in the United States, who specializes in developing telemanipulator robotics for making surgery less invasive, and therefore providing faster recovery for patients. She had also designed fuel cells for land vehicles and high-altitude airplanes and studied sustainable architecture. Mohr is on the faculty of Stanford Medical School and is currently President of the Intuitive Foundation, the corporate foundation of Intuitive Surgical.",
+  "extract_html": "<p><b>Catherine Jane Mohr</b> is a medical researcher from New Zealand, residing in the United States, who specializes in developing telemanipulator robotics for making surgery less invasive, and therefore providing faster recovery for patients. She had also designed fuel cells for land vehicles and high-altitude airplanes and studied sustainable architecture. Mohr is on the faculty of Stanford Medical School and is currently President of the Intuitive Foundation, the corporate foundation of Intuitive Surgical.</p>"
+}
