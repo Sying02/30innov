@@ -19,12 +19,12 @@ document.addEventListener("click",e=>{const p=e.target.closest("[data-person]");
 $("#quick").innerHTML=["看病贵","疫苗","癌症","偏远地区","手术安全","发现太晚"].map(t=>'<button type="button">'+t+' ↗</button>').join("");
 $("#quick").onclick=e=>{if(e.target.tagName==="BUTTON"){$("#query").value=e.target.textContent.replace(" ↗","");category=-1;expanded=false;render()}};
 $("#categories").innerHTML=["全部人物",...categories].map((t,i)=>'<button data-category="'+(i-1)+'">'+t+'</button>').join("");
-$("#query").oninput=()=>{expanded=false;render()};$("#more").onclick=()=>{expanded=!expanded;render();if(!expanded)$("#explore").scrollIntoView()};
+$("#query").oninput=()=>{expanded=false;render()};$("#search-form").addEventListener("submit",e=>{e.preventDefault();expanded=false;render();$("#cards").scrollIntoView({behavior:"smooth",block:"start"})});$("#more").onclick=()=>{expanded=!expanded;render();if(!expanded)$("#explore").scrollIntoView()};
 document.addEventListener("keydown",e=>{if(e.key==="/"&&!["INPUT","TEXTAREA"].includes(document.activeElement.tagName)&&!$("#detail").open){e.preventDefault();$("#query").focus()}});
 $("#chapters").innerHTML=chapters.map((c,i)=>'<details '+(i<2?"open":"")+'><summary><span>0'+(i+1)+'</span>'+c[0]+'</summary><p>'+c[1]+'</p></details>').join("");
 render();
 
-const profileNav=document.createElement("div");profileNav.className="profile-nav";profileNav.innerHTML='<button id="previous-person" aria-label="上一位创新者">← 上一位</button><span id="person-counter" aria-live="polite"></span><button id="next-person" aria-label="下一位创新者">下一位 →</button>';$("#detail").append(profileNav);
+const profileNav=document.createElement("div");profileNav.className="profile-nav";profileNav.innerHTML='<button id="previous-person" type="button" aria-label="上一位创新者" title="上一位创新者"></button><span id="person-counter" aria-live="polite"></span><button id="next-person" type="button" aria-label="下一位创新者" title="下一位创新者"></button>';$("#detail").append(profileNav);
 function movePerson(step){detail((currentPersonId+step+people.length)%people.length)}
 $("#previous-person").onclick=()=>movePerson(-1);$("#next-person").onclick=()=>movePerson(1);
 document.addEventListener("keydown",e=>{if(!$("#detail").open||["INPUT","TEXTAREA","SELECT"].includes(e.target.tagName))return;if(e.key==="ArrowLeft"||e.key==="ArrowRight"){e.preventDefault();movePerson(e.key==="ArrowLeft"?-1:1)}});
