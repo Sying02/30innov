@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大卫·贝克 · 精选故事</title>
+<style>
+  :root {
+    --bg: #183d4d;
+    --ink: #f3f6f5;
+    --muted: #b7cbd0;
+    --soft: #8fa9b1;
+    --mint: #a9d8c3;
+    --line: rgba(255,255,255,.14);
+    --chip: rgba(255,255,255,.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", -apple-system, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 18px 44px 56px;
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    column-gap: 72px;
+  }
+
+  /* ---------- left ---------- */
+  .left { position: sticky; top: 0; align-self: start; padding-top: 4px; }
+  .kicker { font-size: 11px; letter-spacing: .22em; color: var(--mint); font-weight: 600; text-transform: uppercase; }
+  .kicker b { letter-spacing: .12em; margin-left: 4px; }
+  h1 {
+    margin-top: 40px;
+    font-size: 42px; line-height: 1.4; font-weight: 500; letter-spacing: .01em;
+  }
+  .ask { margin-top: 38px; font-size: 16.5px; line-height: 1.75; color: var(--muted); }
+  .who { margin-top: 40px; display: flex; align-items: flex-end; gap: 24px; }
+  .portrait {
+    width: 148px; height: 222px; object-fit: cover; object-position: 50% 20%;
+    border-radius: 12px; border: 1px solid rgba(255,255,255,.18); flex: none;
+  }
+  .who-text { padding-bottom: 2px; }
+  .person { font-size: 19px; font-weight: 600; }
+  .person-zh { margin-top: 10px; font-size: 15px; line-height: 1.6; color: var(--muted); }
+  .pill {
+    display: inline-block; margin-top: 18px;
+    padding: 9px 18px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px;
+    font-size: 13px; color: var(--ink);
+  }
+  .stat { margin-top: 74px; display: flex; align-items: baseline; gap: 18px; }
+  .stat .n { font-family: "Playfair Display", Georgia, "Times New Roman", serif; font-size: 104px; line-height: .9; color: var(--mint); font-weight: 500; }
+  .stat .cap { font-family: Georgia, "Songti SC", serif; font-size: 14px; color: var(--muted); }
+  .src { margin-top: 44px; font-size: 12.5px; }
+  .src a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+  .note { margin-top: 12px; font-size: 12px; line-height: 1.7; color: var(--soft); max-width: 420px; }
+
+  /* ---------- right accordion ---------- */
+  .acc { border-top: 0; }
+  .item { border-bottom: 1px solid var(--line); }
+  .head {
+    width: 100%; background: none; border: 0; color: inherit; cursor: pointer; text-align: left;
+    display: grid; grid-template-columns: 36px 56px 1fr 24px; align-items: center;
+    padding: 26px 0 24px; font: inherit;
+  }
+  .tri { font-size: 12px; color: var(--ink); transform: translateY(-1px); }
+  .num {
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-size: 26px; line-height: 1; color: var(--mint); font-weight: 500;
+    font-variant-numeric: lining-nums; letter-spacing: .02em;
+  }
+  .title { font-size: 21px; font-weight: 500; letter-spacing: .02em; }
+  .title i { font-style: normal; color: var(--muted); font-weight: 400; margin-left: 4px; }
+  .sign { font-size: 20px; color: var(--ink); text-align: right; font-weight: 300; }
+  .body { display: none; padding: 0 0 30px 92px; color: var(--muted); font-size: 15px; line-height: 1.85; }
+  .item.open .body { display: block; }
+  .body p + p { margin-top: 10px; }
+  .body strong { color: var(--ink); font-weight: 600; }
+  .lead { color: var(--ink); }
+
+  ul.pts { list-style: none; margin-top: 14px; }
+  ul.pts li { position: relative; padding: 12px 0 12px 0; border-top: 1px dashed var(--line); }
+  ul.pts li:first-child { border-top: 0; padding-top: 4px; }
+  ul.pts .k { display: block; margin-bottom: 4px; color: var(--mint); font-size: 13px; font-weight: 600; letter-spacing: .06em; }
+
+  .chain { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin: 4px 0 4px; font-size: 13px; }
+  .chain span { padding: 3px 10px; border-radius: 999px; background: var(--chip); border: 1px solid var(--line); color: var(--ink); }
+  .chain em { font-style: normal; color: var(--soft); }
+
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 14px; }
+  .cell { padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--chip); }
+  .cell .v { font-family: Georgia, "Songti SC", serif; font-size: 34px; line-height: 1; color: var(--mint); }
+  .cell .v small { font-size: 15px; margin-left: 4px; color: var(--mint); }
+  .cell .l { margin-top: 8px; font-size: 13px; line-height: 1.55; color: var(--muted); }
+  .foot { margin-top: 12px; font-size: 12.5px; color: var(--soft); line-height: 1.7; }
+
+  .q { counter-reset: q; list-style: none; margin-top: 12px; }
+  .q li { counter-increment: q; position: relative; padding: 12px 0 12px 34px; border-top: 1px dashed var(--line); }
+  .q li:first-child { border-top: 0; padding-top: 6px; }
+  .q li::before { content: counter(q); position: absolute; left: 0; top: 14px; width: 22px; height: 22px; border-radius: 50%;
+    border: 1px solid var(--mint); color: var(--mint); font-size: 12px; text-align: center; line-height: 20px; }
+  .q li:first-child::before { top: 8px; }
+  .tags { margin-top: 10px; display: flex; gap: 8px; }
+  .tags span { font-size: 12px; padding: 3px 10px; border-radius: 999px; border: 1px solid rgba(169,216,195,.5); color: var(--mint); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== LEFT ===== -->
+  <section class="left">
+    <div class="kicker">A Closer Look <span>/</span> <b>精选故事</b></div>
+    <h1>一套软件，<br>一个孵化公司的平台。</h1>
+    <p class="ask">如果一项科学突破只停在论文里，<br>它如何变成许多产品和企业？</p>
+
+    <div class="who">
+      <img class="portrait" src="baker.webp" alt="David Baker">
+      <div class="who-text">
+        <div class="person">David Baker</div>
+        <div class="person-zh">大卫·贝克 / 2024 诺贝尔化学奖得主</div>
+        <div class="pill">科研转化与平台 · 技术与知识产权</div>
+      </div>
+    </div>
+
+    <div class="stat"><span class="n">23</span><span class="cap">家衍生企业 / 1998年 Rosetta 起点</span></div>
+
+    <div class="src"><a href="https://www.ipd.uw.edu/2024/10/david-baker-wins-nobel-prize-for-protein-design/" target="_blank" rel="noopener">来源：华盛顿大学蛋白质设计研究所 ↗</a></div>
+    <p class="note">企业数量与融资额来自智药局统计与机构公开资料；推广机制与影响的因果评估留待进一步研究。点击右侧章节展开。</p>
+  </section>
+
+  <!-- ===== RIGHT ===== -->
+  <section class="acc" id="acc">
+
+    <div class="item open">
+      <button class="head"><span class="tri">▼</span><span class="num">01</span><span class="title">问题</span><span class="sign">—</span></button>
+      <div class="body">
+        <p>科学能力存在，应用落地却不会自动发生。这个故事从计算蛋白质设计出发，区分“技术可行”和“产业能采用”两个问题。</p>
+        <p>蛋白质是“生命的基石”，在生物医药、化工、农业、食品等领域都有用途；但“能设计新蛋白质”只是起点，要变成药物、疫苗、酶和传感器，还需要软件、人才、资金和企业来承接。</p>
+      </div>
+    </div>
+
+    <div class="item open">
+      <button class="head"><span class="tri">▼</span><span class="num">02</span><span class="title">起点 <i>·</i> 1998</span><span class="sign">—</span></button>
+      <div class="body">
+        <p>1993年，贝克加入华盛顿大学，研究氨基酸序列如何折叠成三维结构。1998年，团队推出 Rosetta 的最初版本，用计算机模拟序列与结构之间的关系。</p>
+        <p>2003年，Rosetta 设计出首个从头设计并成功制造的蛋白质 Top7，随后代码向其他研究者开放。2024年，贝克因计算蛋白质设计获诺贝尔化学奖。</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <button class="head"><span class="tri">▶</span><span class="num">03</span><span class="title">方案 <i>·</i> 把方法做成平台</span><span class="sign">+</span></button>
+      <div class="body">
+        <p class="lead">贝克团队发展了设计新蛋白质的能力，并通过软件许可、衍生企业和产业合作，推动成果进入生物医药研发。</p>
+        <ul class="pts">
+          <li><span class="k">工具平台</span>
+            <div class="chain"><span>Rosetta</span><em>→</em><span>RoseTTAFold</span><em>→</em><span>ProteinMPNN · 2022</span><em>→</em><span>RFdiffusion · 2023</span></div>
+            设计过程成为可重复的工具链；ProteinMPNN 把设计时间从“月”缩短到“秒”。</li>
+          <li><span class="k">三条出口</span>软件许可（如基于 Rosetta 的 Cyrus Bench）、衍生企业（如 Xaira、Arzeda、Icosavax）、产业合作（如 Arzeda 与 BP、联合利华、武田合作）。</li>
+          <li><span class="k">人才与知识产权</span>研究所设“转化研究员”，博士毕业后可再留一到两年完善成果、寻找商业机会；多家企业由贝克的学生担任创始人或 CEO。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <button class="head"><span class="tri">▶</span><span class="num">04</span><span class="title">阻力 <i>·</i> 成败分化</span><span class="sign">+</span></button>
+      <div class="body">
+        <ul class="pts">
+          <li><span class="k">结果不一</span>Icosavax 2021年登陆纳斯达克，2023年被阿斯利康收购；Neoleukin 的 NL-201 在2022年第三季度报告中宣布停止开发，2023年3月宣布裁员70%。</li>
+          <li><span class="k">角色边界</span>贝克没有在任何公司担任 CEO、CTO、CSO 等实权高管，重心仍在科研，并开源大部分技术——商业化与开放科学需要同时成立。</li>
+          <li><span class="k">平台≠保证</span>同一套技术基础，不同企业的靶点、融资与临床进展不同，结果差别很大。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <button class="head"><span class="tri">▶</span><span class="num">05</span><span class="title">规模 <i>·</i> 23 家企业</span><span class="sign">+</span></button>
+      <div class="body">
+        <div class="grid">
+          <div class="cell"><div class="v">23<small>家</small></div><div class="l">研究所官网列出的衍生企业，其中 16 家处于活跃状态</div></div>
+          <div class="cell"><div class="v">15<small>亿美元+</small></div><div class="l">这些企业累计融资（智药局统计）</div></div>
+          <div class="cell"><div class="v">8<small>家</small></div><div class="l">2021–2022 两年内新创立的公司，为历年最高峰</div></div>
+          <div class="cell"><div class="v">100<small>+ 项专利</small></div><div class="l">640 余篇论文；90 位学生成为独立教职人员</div></div>
+        </div>
+        <p class="foot">例：Xaira Therapeutics 2024年4月成立，承诺投入超 10 亿美元；Icosavax 被收购的潜在总交易价值约 11 亿美元。公司数量因统计口径不同，另有 21 家的说法。</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <button class="head"><span class="tri">▶</span><span class="num">06</span><span class="title">课堂讨论</span><span class="sign">+</span></button>
+      <div class="body">
+        <ol class="q">
+          <li>贝克开源了大部分技术，又通过衍生企业商业化。开放是在削弱商业价值，还是在扩大生态？</li>
+          <li>如果没有“转化研究员”和学生创业这条通道，同样的技术还会变成这么多企业吗？机构设计起了多大作用？</li>
+          <li>对比 Icosavax 与 Neoleukin：平台能力、团队与产品阶段，哪个更能解释成败？</li>
+        </ol>
+        <div class="tags"><span>重组</span><span>扩散</span></div>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+<script>
+  var items = document.querySelectorAll('.item');
+  items.forEach(function (it) {
+    it.querySelector('.head').addEventListener('click', function () {
+      it.classList.toggle('open');
+      sync();
+    });
+  });
+  function sync() {
+    items.forEach(function (it) {
+      var o = it.classList.contains('open');
+      it.querySelector('.tri').textContent = o ? '▼' : '▶';
+      it.querySelector('.sign').textContent = o ? '—' : '+';
+    });
+  }
+  if (location.search.indexOf('all') > -1) items.forEach(function (it) { it.classList.add('open'); });
+  sync();
+</script>
+</body>
+</html>

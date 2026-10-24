@@ -1,0 +1,34 @@
+	media/image1.png
+Earl Bakken  (Wearable Pacemakers) （梁美婷）	media/image2.png
+Thomas Fogarty (Balloon Catheterization)（梁美婷）	media/image3.png
+Frederic Moll (Robotic Surgery) （梁美婷）	media/image4.png
+Judy Faulkner (Electronic Health Records) （梁美婷）	media/image5.png
+Julio Palmaz (Expandable Vascular Stents) （梁美婷）	media/image6.png
+Devi Shetty (High-Volume Healthcare Delivery)（梁美婷）	media/image7.png
+Homer Stryker (Mobile Orthopedic & Hospital Hardware) （梁美婷）	media/image8.png
+Willem Kolff (Artificial Organs & Hemodialysis) （梁美婷）	media/image9.png
+Robert Langer（朱可欣 & 梁美婷）	media/image12.png
+Demis Hassabis（朱可欣）	media/image13.png
+邓宏魁 （朱可欣）	media/image14.png
+李时珍（朱可欣）| 药物知识分类与系统重构	media/image15.png
+葛洪（朱可欣）	media/image16.png
+张仲景（朱可欣）	media/image17.png
+Gavriel Iddan 加夫里尔·伊丹｜PillCam 胶囊内镜（李嘉欣）	media/image18.png
+Jonathan Rothberg｜Butterfly 手持芯片超声（李嘉欣）	media/image19.png
+Hugh Herr｜BiOM／Empower 动力踝足假肢（李嘉欣）	media/image20.png
+Van Phillips｜Flex-Foot 碳纤维假肢（李嘉欣）	media/image21.png
+青柳卓雄｜脉搏血氧仪（李嘉欣）	media/image22.png
+Govindappa Venkataswamy｜Aravind 眼科服务与 Aurolab （李嘉欣）	media/image23.png
+Godfrey Hounsfield｜CT 计算机断层扫描仪 (提莫）	media/image24.jpeg
+Raymond Damadian｜FONAR MRI 磁共振成像 (提莫）	media/image25.jpeg
+James Black｜理性药物设计：普萘洛尔与西咪替丁（提莫）	media/image26.jpeg
+Dean Kamen｜便携式胰岛素泵与家用透析设备（提莫）	media/image27.jpeg
+Jennifer Doudna 与 Emmanuelle Charpentier｜CRISPR 基因编辑疗法（提莫）	media/image28.jpeg
+Jennifer Doudna 与 Emmanuelle Charpentier｜CRISPR 基因编辑疗法（提莫）	media/image29.jpeg
+Sidney Garfield｜预付费综合医疗体系 Kaiser Permanente（提莫）	media/image30.jpeg
+Noubar Afeyan｜生命科学创业模式创新 （张悦）	media/image31.png
+George Yancopoulos｜VelociGene平台技术（张悦）	media/image32.png
+Katalin Karikó｜核苷修饰mRNA技术（张悦）	media/image33.png
+Carl June｜CAR-T细胞疗法（张悦）	media/image34.png
+Patricia Bath｜Laserphaco 激光白内障治疗（张悦）	media/image35.png
+John C. Martin｜抗病毒药物转化与普及（张悦）	media/image36.png
