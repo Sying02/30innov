@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);
 let category=-1,expanded=false;
 const aliases={"看病贵":"低成本","缺医生":"基层医疗","发现太晚":"早筛","手术安全":"安全"};
-const quickTopics=[["心血管疾病",[0,1,4,5,24]],["糖尿病与器官衰竭",[7,11,25]],["肿瘤、传染病与遗传病",[26,27,31,32,34]],["眼科疾病",[21,33]],["骨科、肢体功能与康复",[6,18,19]],["诊断、监护与微创手术",[1,2,16,17,20,22,23]],["药物基础研发",[9,10,11,15,24,26,27,29,30,31,34]],["医疗服务与医学知识可及性",[3,5,8,12,13,14,21,28,33]]];
+const quickTopics=[["心血管疾病",[0,1,4,5,19]],["糖尿病与器官衰竭",[6,10,20]],["肿瘤、传染病与遗传病",[21,22,26,27,29]],["眼科疾病",[16,28]],["骨科、肢体功能与康复",[14]],["诊断、监护与微创手术",[1,2,12,13,15,17,18]],["药物基础研发",[8,9,10,11,19,21,22,24,25,26,29]],["医疗服务与医学知识可及性",[3,5,7,16,23,28]]];
 quickTopics.forEach(([label,ids])=>ids.forEach(id=>{if(people[id])people[id].keywords+=" "+label}));
 function results(){const terms=$("#query").value.trim().toLowerCase().split(/\s+/).filter(Boolean);return people.filter(p=>(category<0||p.cat===category)&&terms.every(t=>[p.name,p.en,p.problem,p.summary,p.keywords].join(" ").toLowerCase().includes(t)||p.keywords.includes(aliases[t]||"\u0000")))}
 function render(){
