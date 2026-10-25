@@ -3,7 +3,7 @@ const centers=[{x:185,y:360},{x:550,y:360},{x:915,y:360}];
 const groups=categories.map((name,cat)=>({id:"path-"+cat,name,color:colors[cat],cat,ids:people.filter(p=>p.cat===cat).map(p=>p.id),...centers[cat]}));
 function smallPerson(p){return '<button class="person-chip" data-person="'+p.id+'"><img src="'+p.photo+'" alt=""><span>'+p.name+'<small>'+p.city+'</small></span><b>↗</b></button>'}
 function portraitNote(p){return p.photoSource?'<a class="source-link" href="'+p.photoSource+'" target="_blank" rel="noopener">肖像来源与许可 ↗</a>':''}function ringLayout(ids,cx,cy,rings){const out=new Map();let at=0;rings.forEach((r,ring)=>{for(let j=0;j<r.count&&at<ids.length;j++,at++){const angle=-Math.PI/2+(j/r.count)*Math.PI*2+(ring%2)*Math.PI/r.count;out.set(ids[at],{x:cx+Math.cos(angle)*r.rx,y:cy+Math.sin(angle)*r.ry})}});return out}
-const coords=new Map();groups.forEach(g=>{const count=g.ids.length;const rings=count>12?[{count:8,rx:82,ry:112},{count:count-8,rx:148,ry:222}]:count>5?[{count:6,rx:82,ry:104},{count:count-6,rx:145,ry:210}]:[{count:count,rx:86,ry:112}];ringLayout(g.ids,g.x,g.y,rings).forEach((v,k)=>coords.set(k,{...v,group:g}))});
+const coords=new Map();groups.forEach(g=>{const count=g.ids.length;const rings=count>12?[{count:8,rx:95,ry:125},{count:count-8,rx:155,ry:240}]:count>5?[{count:6,rx:95,ry:125},{count:count-6,rx:155,ry:240}]:[{count:count,rx:95,ry:125}];ringLayout(g.ids,g.x,g.y,rings).forEach((v,k)=>coords.set(k,{...v,group:g}))});
 const net=d3.select("#network"),defs=net.append("defs");
 const blur=defs.append("filter").attr("id","cloud-soft").attr("x","-40%").attr("y","-40%").attr("width","180%").attr("height","180%");blur.append("feGaussianBlur").attr("stdDeviation",16);
 people.forEach(p=>defs.append("clipPath").attr("id","face-"+p.id).append("circle").attr("r",25));
@@ -11,16 +11,39 @@ groups.forEach((g,i)=>{const grad=defs.append("radialGradient").attr("id","cloud
 net.append("g").attr("class","cluster-clouds").selectAll("ellipse").data(groups).join("ellipse").attr("cx",d=>d.x).attr("cy",d=>d.y).attr("rx",158).attr("ry",252).attr("fill",(_,i)=>"url(#cloud-gradient-"+i+")").attr("filter","url(#cloud-soft)");
 const spokes=net.append("g").attr("class","cluster-spokes").selectAll("path").data(people).join("path").attr("class","cluster-spoke").attr("d",p=>{const q=coords.get(p.id),g=q.group;const mx=(g.x+q.x)/2+(g.x-q.x)*.08;return "M"+g.x+","+g.y+" Q"+mx+","+((g.y+q.y)/2)+" "+q.x+","+q.y}).attr("fill","none").attr("stroke",p=>coords.get(p.id).group.color).attr("stroke-opacity",.25).attr("stroke-width",1.35).attr("stroke-dasharray","3 5");
 const hubs=net.append("g").attr("class","category-hubs").selectAll("g").data(groups).join("g").attr("class","category-hub").attr("transform",d=>"translate("+d.x+","+d.y+")").attr("role","button").attr("tabindex",0).attr("aria-label",d=>d.name+"，"+d.ids.length+"位创新者").on("click",(_,d)=>selectGroup(d.cat)).on("keydown",(e,d)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectGroup(d.cat)}});
-hubs.append("circle").attr("class","hub-halo").attr("r",62).attr("fill",d=>d.color).attr("fill-opacity",.08).attr("stroke",d=>d.color).attr("stroke-opacity",.25).attr("stroke-width",1.5);
-hubs.append("circle").attr("r",47).attr("fill","#ffffff").attr("fill-opacity",.92).attr("stroke",d=>d.color).attr("stroke-opacity",.55).attr("stroke-width",2);
-hubs.append("text").attr("text-anchor","middle").attr("dy",-3).attr("fill",d=>d.color).attr("font-size",12).attr("font-weight",700).text(d=>d.name);
-hubs.append("text").attr("class","hub-count").attr("text-anchor","middle").attr("dy",17).attr("fill","#71838d").attr("font-size",10).text(d=>d.ids.length+" 位创新者");
+hubs.append("circle").attr("class","hub-halo").attr("r",67).attr("fill",d=>d.color).attr("fill-opacity",.08).attr("stroke",d=>d.color).attr("stroke-opacity",.25).attr("stroke-width",1.5);
+hubs.append("circle").attr("r",56).attr("fill","#ffffff").attr("fill-opacity",.92).attr("stroke",d=>d.color).attr("stroke-opacity",.55).attr("stroke-width",2);
+const hubTitles=["医疗器械与|诊疗设备创新","药物与生物|技术创新","医疗服务与|组织体系创新"];
+hubs.append("text").attr("text-anchor","middle").attr("fill",d=>d.color).attr("font-size",11).attr("font-weight",700).each(function(d){hubTitles[d.cat].split("|").forEach((line,i)=>d3.select(this).append("tspan").attr("x",0).attr("y",i===0?-16:0).text(line))});
+hubs.append("text").attr("class","hub-count").attr("text-anchor","middle").attr("dy",26).attr("fill","#71838d").attr("font-size",10).text(d=>d.ids.length+" 位创新者");
 const nodes=net.append("g").attr("class","person-nodes").selectAll("g").data(people).join("g").attr("class","person-node").attr("transform",p=>"translate("+coords.get(p.id).x+","+coords.get(p.id).y+")").attr("role","button").attr("tabindex",0).attr("aria-label",p=>"打开"+p.name+"人物档案").on("click",(_,p)=>selectPerson(p)).on("keydown",(e,p)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectPerson(p)}});
 nodes.append("title").text(p=>p.name+" · "+categories[p.cat]);
 const floaters=nodes.append("g").attr("class","node-float").attr("style",(_,i)=>"--float-delay:"+(-i*.27)+"s");
 floaters.append("circle").attr("class","avatar-bubble").attr("r",28).attr("fill","#fff").attr("stroke",p=>coords.get(p.id).group.color).attr("stroke-opacity",.75).attr("stroke-width",2);
 floaters.append("image").attr("href",p=>p.photo).attr("x",-25).attr("y",-25).attr("width",50).attr("height",50).attr("preserveAspectRatio","xMidYMid slice").attr("clip-path",p=>"url(#face-"+p.id+")");
-floaters.append("text").attr("class","person-name-label").attr("y",42).attr("text-anchor","middle").attr("font-size",9).attr("fill","#183b50").attr("paint-order","stroke").attr("stroke","#f4f8fa").attr("stroke-width",3).attr("stroke-linejoin","round").text(p=>p.name);
+const nameLabels=floaters.append("text").attr("class","person-name-label").attr("font-size",9).attr("fill","#183b50").attr("paint-order","stroke").attr("stroke","#f4f8fa").attr("stroke-width",3).attr("stroke-linejoin","round").text(p=>p.name);
+function placeNameLabels(){
+ const occupied=[];const nodePoints=[...coords.values()];
+ nameLabels.nodes().sort((a,b)=>b.textContent.length-a.textContent.length).forEach(label=>{
+  const p=d3.select(label.parentNode.parentNode).datum(),point=coords.get(p.id);
+  const preferTop=point.y<point.group.y-25;
+  const options=[{x:0,y:preferTop?-39:43,anchor:"middle"},{x:0,y:preferTop?43:-39,anchor:"middle"},{x:-35,y:3,anchor:"end"},{x:35,y:3,anchor:"start"},{x:0,y:preferTop?-55:59,anchor:"middle"}];
+  let best=null;
+  options.forEach((option,index)=>{
+   label.setAttribute("x",option.x);label.setAttribute("y",option.y);label.setAttribute("text-anchor",option.anchor);
+   const b=label.getBBox(),rect={x:point.x+b.x-3,y:point.y+b.y-2,w:b.width+6,h:b.height+4};
+   let score=index*5;
+   if(rect.x<4||rect.x+rect.w>1096||rect.y<4||rect.y+rect.h>716)score+=5000;
+   const touches=(cx,cy,r)=>{const dx=Math.max(rect.x-cx,0,cx-(rect.x+rect.w));const dy=Math.max(rect.y-cy,0,cy-(rect.y+rect.h));return dx*dx+dy*dy<r*r};
+   for(const hub of groups)if(touches(hub.x,hub.y,62))score+=1800;
+   for(const other of nodePoints)if(other!==point&&touches(other.x,other.y,31))score+=1300;
+   for(const other of occupied){const w=Math.max(0,Math.min(rect.x+rect.w,other.x+other.w)-Math.max(rect.x,other.x));const h=Math.max(0,Math.min(rect.y+rect.h,other.y+other.h)-Math.max(rect.y,other.y));score+=w*h*15}
+   if(!best||score<best.score)best={...option,rect,score};
+  });
+  label.setAttribute("x",best.x);label.setAttribute("y",best.y);label.setAttribute("text-anchor",best.anchor);occupied.push(best.rect);
+ });
+}
+placeNameLabels();
 function resetNetwork(){nodes.attr("opacity",1).classed("is-selected",false);hubs.attr("opacity",1);spokes.attr("stroke-opacity",.25);document.querySelectorAll("[data-path]").forEach(b=>{b.classList.toggle("selected",b.dataset.path==="all")})}
 function selectGroup(cat){const g=groups.find(x=>x.cat===cat);if(!g){resetNetwork();$("#network-info").innerHTML='<p class="eyebrow">三束创新路径</p><h3>三类医疗创新主体</h3><p>人物按主要创新路径聚成三束。点击气泡查看人物档案。</p>'+groups.map(x=>'<button class="person-chip group-chip" data-path="'+x.cat+'"><span>'+x.name+'<small>'+x.ids.length+' 位创新者</small></span><b>↗</b></button>').join("");return}nodes.attr("opacity",p=>p.cat===cat?1:.16).classed("is-selected",p=>p.cat===cat);hubs.attr("opacity",x=>x.cat===cat?1:.22);spokes.attr("stroke-opacity",p=>p.cat===cat?.58:.025);document.querySelectorAll("[data-path]").forEach(b=>{b.classList.toggle("selected",Number(b.dataset.path)===cat)});$("#network-info").innerHTML='<p class="eyebrow">创新主体 / '+g.name+'</p><h3>'+g.name+'</h3><p>'+g.ids.length+' 位创新者聚合于这一束。点击气泡查看个人档案。</p>'+g.ids.map(id=>smallPerson(people[id])).join("")}
 function selectPerson(p){
@@ -44,15 +67,16 @@ layer.append("g").selectAll("path").data(worldLand.features).join("path").attr("
 const locatedPeople=people.filter(p=>Number.isFinite(p.lon)&&Number.isFinite(p.lat)&&(p.lon!==0||p.lat!==0)&&p.city!=="待补充");const cities=Array.from(d3.group(locatedPeople,p=>p.city),([city,ps])=>({city,ps,point:projection([ps[0].lon,ps[0].lat])}));
 let transform=d3.zoomIdentity;
 const markers=layer.append("g").selectAll("g").data(cities).join("g").attr("transform",d=>"translate("+d.point+")").attr("tabindex",0).attr("role","button").attr("aria-label",d=>d.city+"，"+d.ps.map(p=>p.name).join("、")).style("cursor","pointer").on("click",(_,d)=>showCity(d)).on("keydown",(e,d)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();showCity(d)}}).on("mouseenter",(e,d)=>tooltip(e,d)).on("mousemove",(e,d)=>tooltip(e,d)).on("mouseleave",()=>$("#map-tooltip").hidden=true).on("focus",(_,d)=>showCity(d));
-markers.append("circle").attr("class","map-marker").attr("r",d=>d.ps.length>1?11:8).attr("fill","#087b7a").attr("stroke","white").attr("stroke-width",2.5);
-markers.filter(d=>d.ps.length>1).append("text").attr("class","map-marker-count").text(d=>d.ps.length).attr("text-anchor","middle").attr("dy",4).attr("font-size",10).attr("font-weight",700).attr("fill","white").attr("pointer-events","none");
+markers.append("circle").attr("r",15).attr("fill","transparent");
+markers.append("circle").attr("class","map-marker").attr("r",d=>d.ps.length>1?9:6.5).attr("fill","#087b7a").attr("stroke","white").attr("stroke-width",2);
+markers.filter(d=>d.ps.length>1).append("text").attr("class","map-marker-count").text(d=>d.ps.length).attr("text-anchor","middle").attr("dy",3).attr("font-size",8).attr("font-weight",700).attr("fill","white").attr("pointer-events","none");
 markers.append("title").text(d=>d.city+" · "+d.ps.map(p=>p.name).join(" / "));
 const activeLabel=map.append("g").attr("pointer-events","none");activeLabel.append("rect").attr("x",-70).attr("y",-40).attr("width",140).attr("height",25).attr("rx",4).attr("fill","#163d4c");activeLabel.append("text").attr("y",-23).attr("text-anchor","middle").attr("fill","white").attr("font-size",12);activeLabel.style("display","none");
 let selectedCity=null;
 function positionLabel(){if(selectedCity){const [x,y]=transform.apply(selectedCity.point);activeLabel.attr("transform","translate("+Math.max(75,Math.min(1025,x))+","+Math.max(45,Math.min(570,y))+")")}}
 const zoom=d3.zoom().scaleExtent([1,15]).translateExtent([[0,0],[1100,580]]).filter(e=>e.type!=="wheel"||e.ctrlKey).on("zoom",e=>{transform=e.transform;layer.attr("transform",transform);markers.attr("transform",d=>"translate("+d.point+") scale("+(1/transform.k)+")");positionLabel()});map.call(zoom).on("dblclick.zoom",null);
 function tooltip(e,d){const box=$(".world-canvas").getBoundingClientRect();const el=$("#map-tooltip");el.textContent=d.city+" · "+d.ps.map(p=>p.name).join(" / ");el.hidden=false;el.style.left=Math.max(5,Math.min(box.width-210,e.clientX-box.left+12))+"px";el.style.top=Math.max(5,e.clientY-box.top-50)+"px"}
-function showCity(d){selectedCity=d;activeLabel.style("display",null).select("text").text(d.city);positionLabel();markers.select("circle").attr("fill",c=>c===d?"#c17b36":"#087b7a").attr("r",c=>c===d?(c.ps.length>1?13:10):(c.ps.length>1?11:8));$("#map-info").innerHTML='<p class="eyebrow">创新工作地 / CITY</p><h3>'+d.city+'</h3><p class="coordinates">'+Math.abs(d.ps[0].lat).toFixed(3)+'° '+(d.ps[0].lat>=0?"N":"S")+' · '+Math.abs(d.ps[0].lon).toFixed(3)+'° '+(d.ps[0].lon>=0?"E":"W")+'</p>'+d.ps.map(p=>smallPerson(p)+'<p class="place-note">'+p.place+'</p>').join("")}
+function showCity(d){selectedCity=d;activeLabel.style("display",null).select("text").text(d.city);positionLabel();markers.select(".map-marker").attr("fill",c=>c===d?"#c17b36":"#087b7a").attr("r",c=>c===d?(c.ps.length>1?11:8.5):(c.ps.length>1?9:6.5));$("#map-info").innerHTML='<p class="eyebrow">创新工作地 / CITY</p><h3>'+d.city+'</h3><p class="coordinates">'+Math.abs(d.ps[0].lat).toFixed(3)+'° '+(d.ps[0].lat>=0?"N":"S")+' · '+Math.abs(d.ps[0].lon).toFixed(3)+'° '+(d.ps[0].lon>=0?"E":"W")+'</p>'+d.ps.map(p=>smallPerson(p)+'<p class="place-note">'+p.place+'</p>').join("")}
 $("#map-person").innerHTML+=people.map(p=>'<option value="'+p.id+'" '+(p.city==="待补充"?'disabled':'')+'>'+p.name+' · '+p.city+(p.city==="待补充"?'（地点待核实）':'')+'</option>').join("");
 $("#map-person").onchange=e=>{if(e.target.value==="")return;const p=people[Number(e.target.value)],d=cities.find(c=>c.city===p.city);showCity(d);map.call(zoom.transform,d3.zoomIdentity.translate(550-d.point[0]*5,290-d.point[1]*5).scale(5))};
 $("#map-in").onclick=()=>map.call(zoom.scaleBy,1.6);$("#map-out").onclick=()=>map.call(zoom.scaleBy,1/1.6);if($("#map-reset"))$("#map-reset").onclick=()=>{map.call(zoom.transform,d3.zoomIdentity);$("#map-person").value=""};
